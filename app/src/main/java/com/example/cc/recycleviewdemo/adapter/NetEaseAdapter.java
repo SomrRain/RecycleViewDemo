@@ -82,7 +82,7 @@ public class NetEaseAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             OneImageHolder h = (OneImageHolder) holder;
             NetEase netEase = dataList.get(position);
             XImageUtil.display(h.layoutImgIv, netEase.imgsrc);
-            h.layoutImgTittle.setText(netEase.title);
+             h.layoutImgTittle.setText(netEase.title);
             h.layoutImgFollow.setText(netEase.replyCount + "");
         } else if (holder instanceof ThreeImageHolder) {
            final ThreeImageHolder h = (ThreeImageHolder) holder;
